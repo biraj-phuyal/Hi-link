@@ -1,7 +1,15 @@
+import Camp from "@/components/Camp";
+import Features from "@/components/Features";
+import GetApp from "@/components/GetApp";
+import Hero from "@/components/Hero";
+
 export default function home() {
   return (
-    <h1 className= "bold-18 text-teal-500">
-      Hello Wolrd I Am Next
-    </h1>
+    <>
+      <Hero />
+      <Camp />
+      <Features />
+      <GetApp />
+    </>
   )
 }
