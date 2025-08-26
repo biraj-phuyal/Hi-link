@@ -44,7 +44,7 @@ const Hero = () => {
               <Button
                 type='button'
                 title='Download App'
-                variant='btn_green'
+                variant='btn_dark_green'
               />
 
               <Button
@@ -56,10 +56,9 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className='relative flex flex-1 item-start'>
+          <div className='relative flex flex-1 items-start'>
             <div className='relative z-20 flex w-[268px] flex-col gap-8
                   rounded-3xl bg-black px-7 py-8'>
-
 
               <div className='flex flex-col'>
                 <div className='flexBetween'>
@@ -69,13 +68,12 @@ const Hero = () => {
                 <p className='bold-20 text-white'>Augas Caliente</p>
               </div>
 
-
               <div className='flexBetween'>
                   <div className='flex flex-col'>
                     <p className='regular-16 block text-gray-50'>Distance</p>
                     <p className='bold-20 text-white'> 173.28 </p>
                   </div>
-                  <div className='flex felx-col'>
+                  <div className='flex flex-col'>
                     <p className='regular-16 block text-gray-50'>Elevation</p>
                     <p className='bold-20 text-white'> 2.040 km </p>
                   </div>
